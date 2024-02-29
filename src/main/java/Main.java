@@ -27,10 +27,10 @@ public class Main {
         System.out.println("Enter your name: ");
         String getName = scanner.nextLine();
 
-        if(getName.equals("Alice") || getName.equals("Bob") || getName.equals("alice") || getName.equals("bob")){
-            System.out.println("Hello" + getName);
+        if(getName.equalsIgnoreCase("Alice") || getName.equalsIgnoreCase("Bob")){
+            System.out.println("Hello " + getName);
         }else{
             System.out.println("You are neither Alice or Bob");
-        }//getName.equalsIgnoreCase
+        }
     }
 }
