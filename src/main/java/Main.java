@@ -31,6 +31,6 @@ public class Main {
             System.out.println("Hello" + getName);
         }else{
             System.out.println("You are neither Alice or Bob");
-        }
+        }//getName.equalsIgnoreCase
     }
 }
