@@ -2,6 +2,7 @@
  * Created by iyasuwatts on 10/17/17.
  * Modified by kristofer on Jan 2024.
  */
+import java.io.InvalidClassException;
 import java.util.Scanner;
 public class Main {
 
@@ -31,6 +32,7 @@ public class Main {
             System.out.println("Hello " + getName);
         }else{
             System.out.println("You are neither Alice or Bob");
+            
         }
     }
 }
